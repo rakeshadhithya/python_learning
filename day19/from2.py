@@ -1,0 +1,21 @@
+#multiple members
+from calculator import add, sub 
+from physics import newtonsfirst, newtonssecond 
+from biology import dna 
+
+
+print(add(20,10))
+# print(calculator.sub(20,10))
+print(sub(20,10)) 
+# print(mul(20,10))
+
+
+
+print(newtonsfirst())
+# print(physics.newtonssecond())
+print(newtonssecond())
+# print(newtonsthird())
+
+# print(biology.dna())
+print(dna())
+# print(genes())

@@ -107,3 +107,18 @@ else:
             break
     else:
         print('Prime')
+
+#remove duplicates in list and in string
+l = [1,2,2,2,3,4,5,6,5,6,7]
+ul = [] 
+for x in l:
+    if x not in ul:
+        ul.append(x)
+print(ul)
+s = 'rrraaaakkkkkeeeesssshhhh'
+us = ''
+for x in s:
+    if x not in us:
+        us += x 
+print(us)
+

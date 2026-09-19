@@ -1,8 +1,8 @@
 #variable
 name = 'Rakesh'
-#multiple assignment
+#multiple assignment with multiple values
 a, b, c = 1, 2, 3 
-#same value 
+#multiple assignment with same value
 a = b = c = 0 
 #reassignemnt 
 a = 10
@@ -11,7 +11,7 @@ a = 21
 a = 10 
 b = 20
 a,b = b, a 
-#delete
+#delete a variable
 del a 
 #single line comment
 '''

@@ -94,5 +94,37 @@ else:
     print('Not a Palindrome')
 
 #armstrong number
+n = int(input('Enter a number to check armstrong number:  '))
+total_digits = len(str(n)) 
+sum = 0 
+temp = n 
+while temp > 0:
+    last_digit = temp % 10 
+    sum += last_digit ** total_digits 
+    temp //= 10 
+if n == sum:
+    print('Armstrong Number')
+else:
+    print('Not a Armstrong Number')
 
 #palindrome string wihout slicing, without built in function
+s = input('Enter a string to check palindrome:  ')
+# method1 = reverse and check
+# rev = ''
+# for x in range(len(s)-1, -1, -1):
+#     rev += s[x]
+# if s == rev:
+#     print('Palindrome')
+# else:
+#     print('Not a Palindrome')
+# method2 = two pointers
+i, j = 0, len(s)-1 
+while i <= j:
+    if s[i] != s[j]:
+        print('Not a palindrome')
+        break 
+    i += 1 
+    j -= 1 
+else:
+    print('Palindrome')
+
