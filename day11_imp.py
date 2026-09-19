@@ -2,7 +2,7 @@
 #1. print numbers from 1 to 10 
 for x in range(1, 11):
     print(x, end=' ')
-print('\n')
+print('\n') 
 
 list = [4,3,5,2,5,2,9,1,7,4,6,8]
 #2. print even numbers from 5 to 30 and above list
